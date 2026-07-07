@@ -6,7 +6,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=0284C7&center=true&vCenter=true&multiline=false&repeat=true&width=600&lines=Self-taught+Full-Stack+Developer+%F0%9F%9A%80;Next.js+%7C+TypeScript+%7C+AI+Pipelines;Building+production+apps+from+scratch+%F0%9F%94%A5;3+shipped+apps+%E2%80%94+Multi-tenant+%7C+Payments+%7C+AI)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=0284C7&center=true&vCenter=true&multiline=false&repeat=true&width=600&lines=Self-taught+Full-Stack+Developer+%F0%9F%9A%80;Next.js+%7C+TypeScript+%7C+AI+Pipelines;Building+production+apps+from+scratch+%F0%9F%94%A5;Shipped+apps+%E2%80%94+Multi-tenant+%7C+Payments+%7C+AI)](https://git.io/typing-svg)
 
 </div>
 
@@ -19,7 +19,7 @@ const asad = {
   location:   "Sialkot, Punjab, Pakistan 🇵🇰",
   role:       "Full-Stack Developer",
   focus:      ["Next.js", "TypeScript", "AI Pipelines"],
-  shipped:    3, // production apps from scratch
+  shipped:    "multiple", // production apps from scratch
   strengths:  ["Multi-tenant Architecture", "Payment Orchestration", "Multi-LLM AI Systems"],
   philosophy: "Modular · Type-safe · Security-first · Performance-obsessed",
   openTo:     "Freelance · Remote Roles · Collaborations",
