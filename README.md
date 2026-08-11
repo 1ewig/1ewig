@@ -1,91 +1,143 @@
-**Asad Ali — Cover Letter Brief v3**
+<div align="center">
 
-**Who He Is**
-Self-taught full-stack developer from Pakistan. One year of serious building. No CS degree, no employment history. The work is the credential. (Never mention location or lack of degree.)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0284C7&height=200&section=header&text=Asad%20Ali&fontSize=70&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20Developer%20%E2%80%94%20AI%20%26%20Agents&descAlignY=58&descColor=94C5E8&animation=fadeIn" width="100%"/>
 
-**Title**
-Full-Stack Developer — AI & Agents
+</div>
 
-**Targeting**
-- Role types: Full-stack, AI-integrated full-stack, agent-focused engineering
-- Engagement: Contract, freelance, or full-time
-- Companies: Pre-Series A startups, AI-native products, agencies, solo founders who need a builder — output-over-credentials culture only
+<div align="center">
 
----
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=0284C7&center=true&vCenter=true&multiline=false&repeat=true&width=600&lines=Full-Stack+Developer+%E2%80%94+AI+%26+Agents+%F0%9F%9A%80;Next.js+%7C+TypeScript+%7C+AI+Pipelines;Shipping+agentic+apps+from+scratch+%F0%9F%94%A5;Agents+%7C+Payments+%7C+Systems)](https://git.io/typing-svg)
 
-**The Four Projects**
-
-- **Aurora** — Luxury e-commerce platform & admin console (500+ commits). His flagship end-to-end benchmark: storefront, role-gated admin back-office, transactional payment pipeline, PostgreSQL schema, multi-tier caching, security, and containerized deployment — built and owned 100% solo.
-  - **Origin Story:** Started as a high-fidelity animated landing page; evolved into a production commerce platform because the design and UX were too strong to remain a static demo.
-  - **Commerce & Concurrency Engine:** Server-side anti-tamper price re-verification, 35-minute soft stock reservations, PostgreSQL `SELECT ... FOR UPDATE` row locks (sorted by ID to prevent deadlocks), and idempotent HMAC-SHA256 webhooks (`processed_webhooks` ledger + `crypto.timingSafeEqual`) guaranteeing zero oversells or double charges.
-  - **Database & Performance Craft:** 15-table relational schema over raw `pg` (zero ORM), `json_agg` subqueries eliminating N+1 catalog reads (70–95% latency drop), `pg_cron` automated cleanup, and Next.js 16 `'use cache'` with tag-scoped invalidation.
-  - **Security & Governance:** Better Auth, 2-tier RBAC (`user=0 / admin=10`), DB-backed rate limiting, input sanitization, signed HS256 JWT storage bridge, and immutable `audit_logs` recording every admin mutation with old→new field diffs.
-  - **Operations:** 4-layer unidirectional architecture, multi-stage Docker / Docker Compose setup, Sharp WebP pipeline, and 24 Vitest integration suites.
-
-- **Break It Down** — AI task architect. Dual-LLM pipeline (Groq + Gemini) with automated fallback, identical output contracts across providers, adaptive prompt engine, TanStack Query optimistic updates, multi-layer output guardrails (JSON sanitizer → Zod → typed errors).
-
-- **Strata AI** — Agentic Workspace Studio (Live at strata-ai-five.vercel.app). His flagship AI-depth benchmark: a conversational multi-file workspace studio where LLM agents create, edit, analyze, and research multi-file projects live on a canvas through multi-step tool-calling loops.
-  - **Agentic Tool-Calling Engine:** Built an 8-tool schema-validated loop (6 workspace file ops + Tavily web search & page extraction) with closure-captured stateless tool contexts, using client-side auto-continuation loops (`step-limit` reconciliation) extending single requests up to ~75 effective steps.
-  - **Context Engineering & Efficiency:** Cut per-step system prompt token overhead by an estimated 75% by injecting metadata-only file manifests (`name`, `language`, `charCount`, `id`) instead of full file dumps, enforcing an on-demand `readFile` protocol.
-  - **3-Tier Surgical Edit Engine:** Engineered a cascading string matcher (`ResumeEditEngine`: Exact → Whitespace-normalized → 2-point Anchor-bounded) with ambiguity safeguards, applying targeted LLM file edits reliably without file corruption.
-  - **Multi-Model & Reasoning UX:** Built multi-provider LLM routing (Google Gemini + Fireworks DeepSeek V4 Flash), custom reasoning accordions (`ThoughtAccordion`), word-paced token streaming (`smoothStream`), and custom `React.memo` comparators preventing UI freezes during heavy multi-KB streaming.
-  - **Security & Local-First Persistence:** Better Auth identity, Next.js 16 edge proxy guards, DB sliding-window rate limiting (10 msgs / 5h), and local-first IndexedDB persistence (Dexie v5) keeping workspace files 100% private in the browser.
-
-- **ApplyAI** — Job tracker + AI resume tailoring. Convex WebSocket reactive sync, Groq Llama 3.3 structured output in under 1s, Clerk JWT isolation at schema level. (Use when real-time sync or reactive architecture is relevant to the JD.)
+</div>
 
 ---
 
-**What Sets Him Apart — Lead With Systems Craft, Not Just AI Hype**
-The rare differentiator isn't "an AI developer who also writes UI." It is an engineer who:
+## 👨‍💻 About Me
 
-- **Treats UI, UX, DX, Performance & Security as Engine Defaults:** Not afterthoughts. Builds pixel-polished UI (Framer Motion spring choreography), instant perceived load (4-tier caching), raw SQL efficiency (`json_agg` subqueries), and production security (Better Auth, 2-tier RBAC, DB rate-limiting, timing-safe HMAC webhooks) from Day 1.
-- **Engineers AI Systems, Not Prompt Wrappers:** Treats LLMs as non-deterministic components requiring deterministic guardrails: structured output enforcement (Zod), multi-provider fallback pipelines (Groq + Gemini), closure-captured tool loops, 3-tier surgical edit engines, and metadata-only context compression.
-- **Builds for Team Handoff & Production DX:** Writes clean, modular, self-documenting codebases. Produces explicit architectural context guides (`SUMMARY.md`), agent instructions (`AGENTS.md`), multi-stage Docker containerization, and automated verification pipelines (24 Vitest integration suites).
-- **Demonstrates Long-Term Code Stewardship:** 500+ commits on Aurora alone. Proves continuous iteration, refactoring, and long-term commitment — the direct antidote to contractors who ship fragile prototypes and vanish.
+```typescript
+const asad = {
+  location:   "Sialkot, Punjab, Pakistan 🇵🇰",
+  role:       "Full-Stack Developer — AI & Agents",
+  focus:      ["Next.js", "TypeScript", "AI Agents", "AI Pipelines"],
+  shipped:    4, // production apps from scratch
+  strengths:  ["Agentic Tool-Calling Systems", "Payment Orchestration", "Multi-LLM Architecture"],
+  philosophy: "Modular · Type-safe · Security-first · Performance-obsessed",
+  openTo:     "Freelance · Remote Roles · Collaborations",
+};
+```
 
-**The #1 Contractor/Hire Fear He Addresses**
-Messy, unmaintainable code and post-launch abandonment. He counters both with verifiable artifacts: commit history, structured documentation, test suites, and transparent architectural decisions you can trace directly in the repository.
-
----
-
-**Cover Letter Rules**
-
-**Structure (in order):**
-1. **Opening** — Express genuine interest in what the company is specifically building and why it connects to your work. 1–2 sentences, human tone. Do NOT open with a lecture, a contrarian claim, or a statement that dismisses other candidates. Do NOT open with "The hardest part of X is..." or "Most applicants will..."
-2. **Body (2 short paragraphs)** — Skills-first pattern: their stated need → your specific project proof → concrete outcome. Keep paragraphs to 3–5 sentences. Let the work carry the confidence — don't assert superiority, just show the evidence.
-3. **Why them** — One sentence specific to this company, not just the role. Shows you've thought about them, not just yourself.
-4. **Close** — Warm, direct CTA. Offer a call or express availability. One sentence.
-
-**Length:** 250–400 words. Half a page is the target. Never a full page.
-
-**Tone:**
-- Confident and human — sound like a person in a conversation, not a press release
-- Peer-level but respectful — you're not lecturing, you're connecting
-- Let proof do the heavy lifting; avoid sweeping self-assertions
-- Show genuine interest in the company — 81% of recruiters reject letters that feel generic
-
-**Never use:** "passionate", "pride", "fast learner", hollow filler, superlatives like "best candidate" or "perfect fit"
-
-**Never do:**
-- Open with a lecture about the industry or the company's own problem
-- Dismiss or compare yourself to other candidates
-- Tell the company what their own product does
-- Sound defensive about being self-taught or not having a degree
-- Write a letter that could be sent to any company with a name swap
-
-**Always do:**
-- Anchor every claim to a specific project, decision, or measurable outcome
-- Match the 2–3 strongest proof points directly to what the JD explicitly asks for
-- Rotate the lead project based on the JD: stability + craft → Aurora, AI depth → Break It Down, agent architecture → Strata AI, real-time sync → ApplyAI
+> Self-taught developer with **4 production applications** shipped from scratch — covering agentic AI systems, payment orchestration, and multi-LLM pipelines. I build AI that follows rules, not just vibes: schema-validated tool loops, guardrailed LLM output, and code structured so it survives handoff.
 
 ---
 
-**Sharpest One-Liner**
-*"He builds fast, but he builds things that don't fall apart — and the commit history, the docs, and the code itself back that up."*
+## 🛠️ Tech Stack
 
-**Contact**
-- Email: asadshahid234@gmail.com
-- GitHub: github.com/1ewig
-- Portfolio: asad-dev-five.vercel.app
-- Strata AI (live): strata-ai-five.vercel.app
-- Phone: +92 312 335 6061
+### Languages
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+
+### Frontend
+![Next.js](https://img.shields.io/badge/Next.js-16-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
+![Zustand](https://img.shields.io/badge/Zustand-443E38?style=for-the-badge&logo=react&logoColor=white)
+![TanStack Query](https://img.shields.io/badge/TanStack_Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white)
+
+### AI & LLMs
+![Vercel AI SDK](https://img.shields.io/badge/Vercel_AI_SDK-7-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Google Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logo=groq&logoColor=white)
+![Tavily](https://img.shields.io/badge/Tavily-6D4AFF?style=for-the-badge&logo=tavily&logoColor=white)
+![Dexie](https://img.shields.io/badge/Dexie_IndexedDB-035A5C?style=for-the-badge&logo=indexeddb&logoColor=white)
+![Zod](https://img.shields.io/badge/Zod-3E67B1?style=for-the-badge&logo=zod&logoColor=white)
+
+### Backend & Database
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![Convex](https://img.shields.io/badge/Convex-F35B04?style=for-the-badge&logo=convex&logoColor=white)
+![Better Auth](https://img.shields.io/badge/Better_Auth-1C1C1C?style=for-the-badge&logo=auth0&logoColor=white)
+![Clerk](https://img.shields.io/badge/Clerk-6C47FF?style=for-the-badge&logo=clerk&logoColor=white)
+
+### Payments & Infra
+![Lemon Squeezy](https://img.shields.io/badge/Lemon_Squeezy-FFC233?style=for-the-badge&logo=lemonsqueezy&logoColor=black)
+![Bun](https://img.shields.io/badge/Bun-000000?style=for-the-badge&logo=bun&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+
+---
+
+## 🧠 Featured Projects
+
+### 🤖 [Strata AI — Agentic Workspace Studio](https://github.com/1ewig/strata-ai) · [Live](https://strata-ai-five.vercel.app)
+
+> Next.js 16 · Vercel AI SDK 7 · Dexie (IndexedDB) · Better Auth · Supabase PG · Tavily
+
+- 🛠️ **8-Tool Agentic Loop** — LLM agents create, edit, analyze, and research multi-file workspaces through schema-validated tool calls (`listFiles`/`readFile`/`writeFile`/`editFile`/`renameFile`/`deleteFile`/`webSearch`/`extractUrl`), auto-continuing up to ~75 chained steps
+- 🎯 **3-Tier Surgical Edit Engine** — exact → whitespace-normalized → 2-point anchor matching with ambiguity rejection, so LLM edits never corrupt documents
+- 🧠 **Token-Efficient Context** — metadata-only file manifests instead of full dumps (~75% estimated per-step prompt savings), on-demand `readFile` protocol
+- 🔒 **Local-First + Guardrailed** — 100% client-side persistence (Dexie v5), Better Auth identity, DB-backed sliding-window rate limiting, live context-window meter + per-model cost tracking
+
+### 🛍️ [Aurora — Luxury E-Store & Admin Panel](https://github.com/1ewig/aurora) · [Live](https://aurora-nu-three.vercel.app)
+
+> Next.js 16 · PostgreSQL (raw `pg`, zero ORM) · Better Auth · Lemon Squeezy · Zustand
+
+- ⚡ **Payment Orchestration** — server-side price re-verification, `SELECT … FOR UPDATE` row locks + 35-min reservations, HMAC-SHA256 webhook verification → structurally zero oversells or double charges
+- 🗄️ **N+1 Elimination** — `json_agg` single-roundtrip relational queries → **~70% detail-page latency drop**
+- 🏗️ **Production Craft** — 4-layer unidirectional architecture, `use cache` tag-scoped invalidation, 2-tier RBAC + immutable `audit_logs`, 24 Vitest suites (230 tests), 552 commits, measured Lighthouse **99 (Perf) / 95 (Access) / 100 (BP) / 100 (SEO)**
+
+### 🧩 [Break It Down — AI Task Architect](https://github.com/1ewig/break-it-down-v2) · [Live](https://break-it-down-v2.vercel.app)
+
+> Next.js · Supabase · Groq & Gemini · TanStack Query · Framer Motion
+
+- 🔀 **Dual-LLM Pipeline** — Groq `generateText` with automated fallback to Gemini `generateObject` and identical output contracts across providers
+- ⚡ **Optimistic Updates** — TanStack Query mutations with context-captured rollback, eliminating perceived network latency
+- 🛡️ **AI Guardrails** — JSON sanitizer → Zod enforcement → typed error classification (SyntaxError/ZodError/generic → 502/500)
+
+### 📋 [ApplyAI — Job Tracker & Resume Tailoring](https://github.com/1ewig/apply-ai) · [Live](https://apply-ai-eosin.vercel.app)
+
+> Next.js · Convex · Clerk · Groq Llama 3.3 · Zod · Framer Motion
+
+- ⚡ **Reactive Sync** — Convex WebSockets for instant database-to-client updates with no polling
+- 🤖 **Sub-1s CV Analysis** — Groq Llama 3.3 + Zod pipeline generating structured JSON comparisons & keyword suggestions in **< 1 second**
+- 🔒 **Multi-Tenant Integrity** — user data isolation enforced at the schema-query level via Clerk JWT validation inside Convex serverless contexts
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=1ewig&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=0284C7&icon_color=0284C7&text_color=FFFFFF"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=1ewig&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=0284C7&text_color=FFFFFF"/>
+
+</div>
+
+<div align="center">
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=1ewig&theme=tokyonight&hide_border=true&background=0D1117&stroke=0284C7&ring=0284C7&fire=F59E0B&currStreakLabel=FFFFFF&sideLabels=FFFFFF&dates=64748B)](https://git.io/streak-stats)
+
+</div>
+
+---
+
+## 🌐 Connect With Me
+
+<div align="center">
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-asad--dev--five.vercel.app-0284C7?style=for-the-badge&logo=vercel&logoColor=white)](https://asad-dev-five.vercel.app)
+[![Email](https://img.shields.io/badge/Email-asadshahid234@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:asadshahid234@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-1ewig-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/1ewig)
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0284C7&height=100&section=footer&fontColor=ffffff" width="100%"/>
+
+<sub>⚡ Open to freelance & remote opportunities · Sialkot, Pakistan · English (Professional) · Urdu (Native)</sub>
+
+</div>
