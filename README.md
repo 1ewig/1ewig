@@ -106,18 +106,11 @@ const asad = {
 
 ---
 
-## 📊 GitHub Stats
+## 📊 Contribution Graph
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=1ewig&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=EA580C&icon_color=EA580C&text_color=FFFFFF"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=1ewig&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=EA580C&text_color=FFFFFF"/>
-
-</div>
-
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=1ewig&theme=tokyonight&hide_border=true&background=0D1117&stroke=EA580C&ring=EA580C&fire=EA580C&currStreakLabel=FFFFFF&sideLabels=FFFFFF&dates=64748B)](https://git.io/streak-stats)
+![Asad Ali's Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=1ewig&theme=react-dark&bg_color=0D1117&color=EA580C&line=EA580C&point=FFB98A&area_color=EA580C&hide_border=true&radius=8)
 
 </div>
 
