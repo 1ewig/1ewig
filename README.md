@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=18181B&height=200&section=header&text=Asad%20Ali&fontSize=70&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20Developer%20%E2%80%94%20AI%20%26%20Agents&descAlignY=58&descColor=EA580C&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=18181B&height=200&section=header&text=Asad%20Ali&fontSize=70&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20and%20AI%20Engineer&descAlignY=58&descColor=EA580C&animation=fadeIn" width="100%"/>
 
 </div>
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=EA580C&center=true&vCenter=true&multiline=false&repeat=true&width=600&lines=Full-Stack+Developer+%E2%80%94+AI+%26+Agents+%F0%9F%9A%80;Building+at+asad.dev+%F0%9F%94%A5;Next.js+%7C+TypeScript+%7C+Agentic+Systems;Agents+%7C+Payments+%7C+Token+Engineering)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=EA580C&center=true&vCenter=true&multiline=false&repeat=true&width=600&lines=Full-Stack+%26+AI+Engineer+%F0%9F%9A%80;Building+at+asad.dev+%F0%9F%94%A5;Next.js+%7C+TypeScript+%7C+Agentic+Systems;Agents+%7C+Payments+%7C+Token+Engineering)](https://git.io/typing-svg)
 
 </div>
 
@@ -18,7 +18,7 @@
 const asad = {
   brand:      "asad.dev 🟠",
   location:   "Sialkot, Punjab, Pakistan 🇵🇰",
-  role:       "Full-Stack Developer — AI & Agents",
+  role:       "Full-Stack & AI Engineer",
   focus:      ["Next.js", "TypeScript", "AI Agents", "Context Engineering"],
   shipped:    4, // production-grade applications built end-to-end
   strengths:  ["Agentic Tool-Calling Engines", "Payment Orchestration", "Surgical LLM Edit Engines"],
@@ -27,7 +27,7 @@ const asad = {
 };
 ```
 
-> Self-taught developer shipping production applications end-to-end — from AI agents that edit codebases through multi-step tool calls, to store engines built so payments structurally can't double-charge. I build software that keeps working, not just demo well.
+> Full-Stack & AI Engineer shipping production applications end-to-end — from AI agents that edit codebases through multi-step tool calls, to store engines built so payments structurally can't double-charge. I build software that keeps working, not just demo well.
 
 ---
 
@@ -65,6 +65,7 @@ const asad = {
 ### Infra & Tools
 ![Lemon Squeezy](https://img.shields.io/badge/Lemon_Squeezy-FFC233?style=for-the-badge&logo=lemonsqueezy&logoColor=black)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white)
 ![Bun](https://img.shields.io/badge/Bun-000000?style=for-the-badge&logo=bun&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
