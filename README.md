@@ -107,11 +107,18 @@ const asad = {
 
 ---
 
-## 📊 Contribution Graph
+## 📊 Activity & Engineering Discipline
 
 <div align="center">
 
 ![Asad Ali's Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=1ewig&theme=react-dark&bg_color=0D1117&color=EA580C&line=EA580C&point=FFB98A&area_color=EA580C&hide_border=true&radius=8)
+
+<p align="center">
+  <b>🔒 Zero-Compromise Security</b> &nbsp;•&nbsp; 
+  <b>⚡ Single-Roundtrip Performance</b> &nbsp;•&nbsp; 
+  <b>🧪 Automated Test Coverage</b> &nbsp;•&nbsp; 
+  <b>🤖 Guardrailed AI Systems</b>
+</p>
 
 </div>
 
