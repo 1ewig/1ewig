@@ -107,20 +107,14 @@ const asad = {
 
 ---
 
-## 📊 Activity & Engineering Discipline
+## 🛡️ Systems & Architecture Matrix
 
-<div align="center">
-
-![Asad Ali's Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=1ewig&theme=react-dark&bg_color=0D1117&color=EA580C&line=EA580C&point=FFB98A&area_color=EA580C&hide_border=true&radius=8)
-
-<p align="center">
-  <b>🔒 Zero-Compromise Security</b> &nbsp;•&nbsp; 
-  <b>⚡ Single-Roundtrip Performance</b> &nbsp;•&nbsp; 
-  <b>🧪 Automated Test Coverage</b> &nbsp;•&nbsp; 
-  <b>🤖 Guardrailed AI Systems</b>
-</p>
-
-</div>
+| System / App | Core Engineering Challenge | Architectural Solution | Verifiable Proof |
+| :--- | :--- | :--- | :--- |
+| **[Strata AI](https://github.com/1ewig/strata-ai)** | LLM workspace file corruption | 3-tier matching ladder (`StringEditEngine`) + ambiguity halting | 15 isolated Bun test suites · ~75 steps |
+| **[Aurora](https://github.com/1ewig/aurora)** | Checkout race conditions & double charges | Deadlock-free `SELECT ... FOR UPDATE` + timing-safe HMAC ledger | 230 Vitest tests · 99/95/100/100 Lighthouse |
+| **[Break It Down](https://github.com/1ewig/break-it-down-v2)** | Model downtime & JSON hallucination | Asymmetric Groq $\rightarrow$ Gemini fallback + `sanitizeAIJSON` | TanStack Query optimistic rollback |
+| **[ApplyAI](https://github.com/1ewig/apply-ai)** | Client sync latency & multi-tenancy | Convex WebSocket reactive sync + Clerk schema JWT isolation | Sub-1s structured inference |
 
 ---
 
