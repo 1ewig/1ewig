@@ -48,6 +48,7 @@ const asad = {
 
 ### AI & Agents
 ![Vercel AI SDK](https://img.shields.io/badge/Vercel_AI_SDK_7-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Langfuse](https://img.shields.io/badge/Langfuse-000000?style=for-the-badge&logo=langfuse&logoColor=white)
 ![DeepSeek / Fireworks](https://img.shields.io/badge/DeepSeek_/_Fireworks-EA580C?style=for-the-badge&logo=openai&logoColor=white)
 ![Google Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
 ![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logo=groq&logoColor=white)
@@ -75,27 +76,27 @@ const asad = {
 
 ### 🤖 [Strata AI — Agentic Workspace Studio](https://github.com/1ewig/strata-ai) · [Live Demo](https://strata-ai-five.vercel.app)
 
-> Next.js 16 · Vercel AI SDK 7 · DeepSeek (Fireworks) & Gemini · Dexie (IndexedDB) · Better Auth · Zod
+> Next.js 16 · Vercel AI SDK 7 · Gemini & DeepSeek · Dexie.js (IndexedDB) · Langfuse · Bun
 
-- 🛠️ **8-Tool Agentic Engine** — Autonomous file ops + web search/extraction using closure-captured contexts, auto-continuing single requests to ~75 effective steps.
-- 🎯 **3-Tier Surgical Edit Engine** — Cascading string matcher (`exact` → `whitespace-normalized` → `2-point anchor bounded`) with ambiguity guards to apply LLM edits without corrupting codebases.
-- 🪙 **Token & Context Engineering** — 128k context guardrails, live usage meter, per-model USD cost tracking, and a `/compact` command streaming structured summaries with server-side history pruning.
+- 🛠️ **8-Tool Agentic Engine & Tracing** — Multi-step tool calls + Tavily search/extraction, full Langfuse OpenTelemetry tracing, and `coalesceToolInputDeltas` transforms extending turns to ~75 effective steps.
+- 🎯 **3-Tier Surgical Edit Engine & Ingestion** — Cascading string matcher (`exact` → `whitespace-normalized` → `2-point anchor`) with ambiguity halting + multimodal document ingestion (`unpdf`).
+- 🪙 **Context Management & Storage** — Local-first Dexie v5 layer (zero server storage), 128k headroom ceiling, per-model USD cost tracking, and `/compact` server-side history pruning.
 
 ### 🛍️ [Aurora — Luxury E-Store & Admin Panel](https://github.com/1ewig/aurora) · [Live Demo](https://aurora-nu-three.vercel.app)
 
-> Next.js 16 · PostgreSQL (raw `pg`) · Better Auth · Lemon Squeezy · Zustand
+> Next.js 16 · PostgreSQL (Zero ORM) · Better Auth · Lemon Squeezy · Vitest · Tailwind 4
 
-- ⚡ **Payment Orchestration** — Stock reserved under `SELECT … FOR UPDATE` row locks with 35-min soft holds; debited only on verified webhooks via a UNIQUE-constrained event ledger + HMAC verification.
-- 🗄️ **N+1 Query Elimination** — Compiles nested catalog data into a single `json_agg` SQL roundtrip, cutting detail-page latency by **70–95%**.
-- 🛡️ **Security & Governance** — Edge-enforced 2-tier RBAC (`user=0 / admin=10`), sliding-window rate limiting, and an immutable `audit_logs` table tracking field diffs (`old → new`).
+- ⚡ **Payment & Concurrency Integrity** — Stock reserved under deadlock-free `SELECT … FOR UPDATE` row locks with 35-min soft holds; debited on verified webhooks via a UNIQUE-constrained event ledger + timing-safe HMAC.
+- 🗄️ **Zero-ORM SQL & Cache Architecture** — Compiles nested catalog data into single-roundtrip `json_agg` SQL over raw `pg` Pool (70–95% latency drop), paired with Next.js 16 `use cache` directives (99/95/100/100 Lighthouse).
+- 🛡️ **Defense-in-Depth & Testing** — Next.js 16 edge proxy (`src/proxy.ts`), 3-tier RBAC (`user=0 / admin=10`), sliding-window rate limiters, immutable `audit_logs`, and 230+ automated tests across 24 suites.
 
 ### 🧩 [Break It Down — AI Task Architect](https://github.com/1ewig/break-it-down-v2) · [Live Demo](https://break-it-down-v2.vercel.app)
 
-> Next.js · Supabase · Groq & Gemini · TanStack Query · Motion · Zustand
+> Next.js · Supabase (PostgreSQL & RLS) · Groq & Gemini · TanStack Query · Motion
 
-- 🔀 **Asymmetric Dual-LLM Pipeline** — Groq (`generateText`) with automated fallback to Gemini (`generateObject`) maintaining identical output schemas across providers.
-- ⚡ **Optimistic Cache Mutations** — TanStack Query optimistic updates with context-captured rollback, eliminating perceived network latency across task steps.
-- 🛡️ **Production AI Guardrails** — Custom JSON sanitizer → Zod runtime validation → typed error classification preventing malformed AI output from reaching UI.
+- 🔀 **Asymmetric Dual-LLM Pipeline** — High-speed Groq with automated fallback to Gemini (`generateObject`) and energy-aware adaptive prompt calibration.
+- ⚡ **Zero-Latency State & Data Security** — TanStack Query optimistic mutations with snapshot rollback + Supabase PostgreSQL user-scoped Row Level Security (RLS) policies.
+- 🛡️ **Production AI Guardrails** — `sanitizeAIJSON` repair → Zod schema validation → typed HTTP error classification (502/500) preventing malformed AI output from reaching UI.
 
 ### 📋 [ApplyAI — Job Tracker & Resume Tailoring](https://github.com/1ewig/apply-ai) · [Live Demo](https://apply-ai-eosin.vercel.app)
 
@@ -111,7 +112,7 @@ const asad = {
 
 | System / App | Core Engineering Challenge | Architectural Solution | Verifiable Proof |
 | :--- | :--- | :--- | :--- |
-| **[Strata AI](https://github.com/1ewig/strata-ai)** | LLM workspace file corruption | 3-tier matching ladder (`StringEditEngine`) + ambiguity halting | 15 isolated Bun test suites · ~75 steps |
+| **[Strata AI](https://github.com/1ewig/strata-ai)** | LLM workspace file corruption | 3-tier matching ladder (`StringEditEngine`) + ambiguity halting | 18 isolated Bun test suites (285 tests) · ~75 steps |
 | **[Aurora](https://github.com/1ewig/aurora)** | Checkout race conditions & double charges | Deadlock-free `SELECT ... FOR UPDATE` + timing-safe HMAC ledger | 230 Vitest tests · 99/95/100/100 Lighthouse |
 | **[Break It Down](https://github.com/1ewig/break-it-down-v2)** | Model downtime & JSON hallucination | Asymmetric Groq $\rightarrow$ Gemini fallback + `sanitizeAIJSON` | TanStack Query optimistic rollback |
 | **[ApplyAI](https://github.com/1ewig/apply-ai)** | Client sync latency & multi-tenancy | Convex WebSocket reactive sync + Clerk schema JWT isolation | Sub-1s structured inference |
@@ -123,6 +124,7 @@ const asad = {
 <div align="center">
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-asad.dev-EA580C?style=for-the-badge&logo=vercel&logoColor=white)](https://asad-dev-five.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-asad--dev--ai-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/asad-dev-ai)
 [![Email](https://img.shields.io/badge/Email-asadshahid234@gmail.com-18181B?style=for-the-badge&logo=gmail&logoColor=white)](mailto:asadshahid234@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-1ewig-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/1ewig)
 
