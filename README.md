@@ -1,15 +1,15 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=18181B&height=200&section=header&text=Asad%20Ali&fontSize=70&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20%26%20AI%20Engineer&descAlignY=58&descColor=EA580C&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=18181B&height=200&section=header&text=Asad%20Ali&fontSize=70&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20and%20AI%20Engineer&descAlignY=58&animation=fadeIn" width="100%"/>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2800&pause=1000&color=EA580C&center=true&vCenter=true&multiline=false&repeat=true&width=620&lines=Full-Stack+%26+AI+Engineer;Building+for+the+day+after+launch;Next.js+%7C+TypeScript+%7C+Agentic+Systems;Agents+%7C+Payments+%7C+Token+Engineering)](https://git.io/typing-svg)
 
-<p align="center">
-  <a href="https://asad-dev-five.vercel.app"><img src="https://img.shields.io/badge/Portfolio-asad.dev-EA580C?style=for-the-badge&logo=vercel&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/in/asad-dev-ai"><img src="https://img.shields.io/badge/LinkedIn-asad--dev--ai-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:asadshahid234@gmail.com"><img src="https://img.shields.io/badge/Email-asadshahid234@gmail.com-18181B?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://github.com/1ewig"><img src="https://img.shields.io/badge/GitHub-1ewig-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-</p>
+<br/>
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-asad.dev-EA580C?style=flat-square&logo=vercel&logoColor=white)](https://asad-dev-five.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-asad--dev--ai-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/asad-dev-ai)
+[![GitHub](https://img.shields.io/badge/GitHub-1ewig-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/1ewig)
+[![Email](https://img.shields.io/badge/Email-asadshahid234%40gmail.com-18181B?style=flat-square&logo=gmail&logoColor=white)](mailto:asadshahid234@gmail.com)
 
 </div>
 
